@@ -1,0 +1,41 @@
+/* Reset default margin and padding for the body and nav */
+body, nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the content area */
+.content {
+    padding: 20px;
+    text-align: left;
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; /* Make the content area at least the height of the viewport */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
